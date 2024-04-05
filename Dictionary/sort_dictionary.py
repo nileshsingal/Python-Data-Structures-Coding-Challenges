@@ -11,5 +11,6 @@ def sort_dictionary(my_dict):
     sorted_dict = {key: my_dict[key] for key in keys}
     return sorted_dict
 
-my_dict = {'alice': 10, 'bob': 9, 'charlie': 15, 'david': 2, 'emma': 32}
+my_dict = {'charlie': 15, 'bob': 9, 'emma': 32, 'david': 2, 'alice': 10}
+
 print(sort_dictionary(my_dict))
